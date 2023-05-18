@@ -5,7 +5,7 @@ body {
 
 .header {
     padding: 15px 0;
-    background-color: #ffffff;
+    background-color:  #ffffff;
 }
 
 .header-content {
@@ -98,4 +98,21 @@ label{
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
+}
+.profile-radio.content{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.profile-radio.content > label{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.profile{
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
 }
